@@ -1,0 +1,26 @@
+{
+  "name": "blogs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "deploy":"bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maolovecoding/blogs_md.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maolovecoding/blogs_md/issues"
+  },
+  "homepage": "https://github.com/maolovecoding/blogs_md#readme",
+  "devDependencies": {
+    "vitepress": "1.0.0-beta.3"
+  }
+}

@@ -1,0 +1,1056 @@
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+devDependencies:
+  vitepress:
+    specifier: 1.0.0-beta.3
+    version: artifactory.intra.xiaojukeji.com/vitepress@1.0.0-beta.3(@algolia/client-search@4.18.0)(search-insights@2.6.0)
+
+packages:
+
+  artifactory.intra.xiaojukeji.com/@algolia/autocomplete-core@1.9.3(@algolia/client-search@4.18.0)(algoliasearch@4.18.0)(search-insights@2.6.0):
+    resolution: {integrity: sha1-HVZIKnaMM6rghoyFMwSeAuiWG+c=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@algolia/autocomplete-core/-/autocomplete-core-1.9.3.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40algolia%2Fautocomplete-core%2F-%2Fautocomplete-core-1.9.3.tgz}
+    id: artifactory.intra.xiaojukeji.com/@algolia/autocomplete-core/1.9.3
+    name: '@algolia/autocomplete-core'
+    version: 1.9.3
+    dependencies:
+      '@algolia/autocomplete-plugin-algolia-insights': artifactory.intra.xiaojukeji.com/@algolia/autocomplete-plugin-algolia-insights@1.9.3(@algolia/client-search@4.18.0)(algoliasearch@4.18.0)(search-insights@2.6.0)
+      '@algolia/autocomplete-shared': artifactory.intra.xiaojukeji.com/@algolia/autocomplete-shared@1.9.3(@algolia/client-search@4.18.0)(algoliasearch@4.18.0)
+    transitivePeerDependencies:
+      - '@algolia/client-search'
+      - algoliasearch
+      - search-insights
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@algolia/autocomplete-plugin-algolia-insights@1.9.3(@algolia/client-search@4.18.0)(algoliasearch@4.18.0)(search-insights@2.6.0):
+    resolution: {integrity: sha1-m3+GQQUsjq1tZsFiPURMvhnd5Yc=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@algolia/autocomplete-plugin-algolia-insights/-/autocomplete-plugin-algolia-insights-1.9.3.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40algolia%2Fautocomplete-plugin-algolia-insights%2F-%2Fautocomplete-plugin-algolia-insights-1.9.3.tgz}
+    id: artifactory.intra.xiaojukeji.com/@algolia/autocomplete-plugin-algolia-insights/1.9.3
+    name: '@algolia/autocomplete-plugin-algolia-insights'
+    version: 1.9.3
+    peerDependencies:
+      search-insights: '>= 1 < 3'
+    dependencies:
+      '@algolia/autocomplete-shared': artifactory.intra.xiaojukeji.com/@algolia/autocomplete-shared@1.9.3(@algolia/client-search@4.18.0)(algoliasearch@4.18.0)
+      search-insights: artifactory.intra.xiaojukeji.com/search-insights@2.6.0
+    transitivePeerDependencies:
+      - '@algolia/client-search'
+      - algoliasearch
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@algolia/autocomplete-preset-algolia@1.9.3(@algolia/client-search@4.18.0)(algoliasearch@4.18.0):
+    resolution: {integrity: sha1-ZMykpDBM/K0s9zDoMGfgwbL0hdo=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@algolia/autocomplete-preset-algolia/-/autocomplete-preset-algolia-1.9.3.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40algolia%2Fautocomplete-preset-algolia%2F-%2Fautocomplete-preset-algolia-1.9.3.tgz}
+    id: artifactory.intra.xiaojukeji.com/@algolia/autocomplete-preset-algolia/1.9.3
+    name: '@algolia/autocomplete-preset-algolia'
+    version: 1.9.3
+    peerDependencies:
+      '@algolia/client-search': '>= 4.9.1 < 6'
+      algoliasearch: '>= 4.9.1 < 6'
+    dependencies:
+      '@algolia/autocomplete-shared': artifactory.intra.xiaojukeji.com/@algolia/autocomplete-shared@1.9.3(@algolia/client-search@4.18.0)(algoliasearch@4.18.0)
+      '@algolia/client-search': artifactory.intra.xiaojukeji.com/@algolia/client-search@4.18.0
+      algoliasearch: artifactory.intra.xiaojukeji.com/algoliasearch@4.18.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@algolia/autocomplete-shared@1.9.3(@algolia/client-search@4.18.0)(algoliasearch@4.18.0):
+    resolution: {integrity: sha1-LiLoMNNvCpzywMzTx/bVlDW3ffo=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@algolia/autocomplete-shared/-/autocomplete-shared-1.9.3.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40algolia%2Fautocomplete-shared%2F-%2Fautocomplete-shared-1.9.3.tgz}
+    id: artifactory.intra.xiaojukeji.com/@algolia/autocomplete-shared/1.9.3
+    name: '@algolia/autocomplete-shared'
+    version: 1.9.3
+    peerDependencies:
+      '@algolia/client-search': '>= 4.9.1 < 6'
+      algoliasearch: '>= 4.9.1 < 6'
+    dependencies:
+      '@algolia/client-search': artifactory.intra.xiaojukeji.com/@algolia/client-search@4.18.0
+      algoliasearch: artifactory.intra.xiaojukeji.com/algoliasearch@4.18.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@algolia/cache-browser-local-storage@4.18.0:
+    resolution: {integrity: sha1-e8DJ2NNG7QE4T0zw369roprVwgw=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@algolia/cache-browser-local-storage/-/cache-browser-local-storage-4.18.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40algolia%2Fcache-browser-local-storage%2F-%2Fcache-browser-local-storage-4.18.0.tgz}
+    name: '@algolia/cache-browser-local-storage'
+    version: 4.18.0
+    dependencies:
+      '@algolia/cache-common': artifactory.intra.xiaojukeji.com/@algolia/cache-common@4.18.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@algolia/cache-common@4.18.0:
+    resolution: {integrity: sha1-qsM6+sU+GRxZXRSku35tgarkg28=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@algolia/cache-common/-/cache-common-4.18.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40algolia%2Fcache-common%2F-%2Fcache-common-4.18.0.tgz}
+    name: '@algolia/cache-common'
+    version: 4.18.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@algolia/cache-in-memory@4.18.0:
+    resolution: {integrity: sha1-mkApTHNIGXJKG06Gr9Wn1L6bzC8=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@algolia/cache-in-memory/-/cache-in-memory-4.18.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40algolia%2Fcache-in-memory%2F-%2Fcache-in-memory-4.18.0.tgz}
+    name: '@algolia/cache-in-memory'
+    version: 4.18.0
+    dependencies:
+      '@algolia/cache-common': artifactory.intra.xiaojukeji.com/@algolia/cache-common@4.18.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@algolia/client-account@4.18.0:
+    resolution: {integrity: sha1-IC2eBrQeBuRcuRkQe+0KZRBog8w=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@algolia/client-account/-/client-account-4.18.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40algolia%2Fclient-account%2F-%2Fclient-account-4.18.0.tgz}
+    name: '@algolia/client-account'
+    version: 4.18.0
+    dependencies:
+      '@algolia/client-common': artifactory.intra.xiaojukeji.com/@algolia/client-common@4.18.0
+      '@algolia/client-search': artifactory.intra.xiaojukeji.com/@algolia/client-search@4.18.0
+      '@algolia/transporter': artifactory.intra.xiaojukeji.com/@algolia/transporter@4.18.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@algolia/client-analytics@4.18.0:
+    resolution: {integrity: sha1-AwsCa9nBPLFUN+NeRFa94lsPEpg=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@algolia/client-analytics/-/client-analytics-4.18.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40algolia%2Fclient-analytics%2F-%2Fclient-analytics-4.18.0.tgz}
+    name: '@algolia/client-analytics'
+    version: 4.18.0
+    dependencies:
+      '@algolia/client-common': artifactory.intra.xiaojukeji.com/@algolia/client-common@4.18.0
+      '@algolia/client-search': artifactory.intra.xiaojukeji.com/@algolia/client-search@4.18.0
+      '@algolia/requester-common': artifactory.intra.xiaojukeji.com/@algolia/requester-common@4.18.0
+      '@algolia/transporter': artifactory.intra.xiaojukeji.com/@algolia/transporter@4.18.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@algolia/client-common@4.18.0:
+    resolution: {integrity: sha1-4IDDk+G+zdX18AiBXFfTJI06hIM=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@algolia/client-common/-/client-common-4.18.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40algolia%2Fclient-common%2F-%2Fclient-common-4.18.0.tgz}
+    name: '@algolia/client-common'
+    version: 4.18.0
+    dependencies:
+      '@algolia/requester-common': artifactory.intra.xiaojukeji.com/@algolia/requester-common@4.18.0
+      '@algolia/transporter': artifactory.intra.xiaojukeji.com/@algolia/transporter@4.18.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@algolia/client-personalization@4.18.0:
+    resolution: {integrity: sha1-kELOJ3MSAVitJeHfso1wbOu0jcI=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@algolia/client-personalization/-/client-personalization-4.18.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40algolia%2Fclient-personalization%2F-%2Fclient-personalization-4.18.0.tgz}
+    name: '@algolia/client-personalization'
+    version: 4.18.0
+    dependencies:
+      '@algolia/client-common': artifactory.intra.xiaojukeji.com/@algolia/client-common@4.18.0
+      '@algolia/requester-common': artifactory.intra.xiaojukeji.com/@algolia/requester-common@4.18.0
+      '@algolia/transporter': artifactory.intra.xiaojukeji.com/@algolia/transporter@4.18.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@algolia/client-search@4.18.0:
+    resolution: {integrity: sha1-g7N6rL4lT9eJIVT+eo8Dlb0BxoI=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@algolia/client-search/-/client-search-4.18.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40algolia%2Fclient-search%2F-%2Fclient-search-4.18.0.tgz}
+    name: '@algolia/client-search'
+    version: 4.18.0
+    dependencies:
+      '@algolia/client-common': artifactory.intra.xiaojukeji.com/@algolia/client-common@4.18.0
+      '@algolia/requester-common': artifactory.intra.xiaojukeji.com/@algolia/requester-common@4.18.0
+      '@algolia/transporter': artifactory.intra.xiaojukeji.com/@algolia/transporter@4.18.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@algolia/logger-common@4.18.0:
+    resolution: {integrity: sha1-DmoU6Lkfy3hhWVFp4cpXzyGfglU=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@algolia/logger-common/-/logger-common-4.18.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40algolia%2Flogger-common%2F-%2Flogger-common-4.18.0.tgz}
+    name: '@algolia/logger-common'
+    version: 4.18.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@algolia/logger-console@4.18.0:
+    resolution: {integrity: sha1-Njbks+IVTuLuLbLlvihXIDyfcEc=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@algolia/logger-console/-/logger-console-4.18.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40algolia%2Flogger-console%2F-%2Flogger-console-4.18.0.tgz}
+    name: '@algolia/logger-console'
+    version: 4.18.0
+    dependencies:
+      '@algolia/logger-common': artifactory.intra.xiaojukeji.com/@algolia/logger-common@4.18.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@algolia/requester-browser-xhr@4.18.0:
+    resolution: {integrity: sha1-kKxXWUbgqxls3YdZOz/tVjoyqa8=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@algolia/requester-browser-xhr/-/requester-browser-xhr-4.18.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40algolia%2Frequester-browser-xhr%2F-%2Frequester-browser-xhr-4.18.0.tgz}
+    name: '@algolia/requester-browser-xhr'
+    version: 4.18.0
+    dependencies:
+      '@algolia/requester-common': artifactory.intra.xiaojukeji.com/@algolia/requester-common@4.18.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@algolia/requester-common@4.18.0:
+    resolution: {integrity: sha1-EphKpLEGef+oY1Ns7q4zzdDuTUI=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@algolia/requester-common/-/requester-common-4.18.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40algolia%2Frequester-common%2F-%2Frequester-common-4.18.0.tgz}
+    name: '@algolia/requester-common'
+    version: 4.18.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@algolia/requester-node-http@4.18.0:
+    resolution: {integrity: sha1-gEaxQceEzHd4vPUeiniIzORjdUs=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@algolia/requester-node-http/-/requester-node-http-4.18.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40algolia%2Frequester-node-http%2F-%2Frequester-node-http-4.18.0.tgz}
+    name: '@algolia/requester-node-http'
+    version: 4.18.0
+    dependencies:
+      '@algolia/requester-common': artifactory.intra.xiaojukeji.com/@algolia/requester-common@4.18.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@algolia/transporter@4.18.0:
+    resolution: {integrity: sha1-GN5kXCD8VwMZayrU/sVemMMVodg=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@algolia/transporter/-/transporter-4.18.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40algolia%2Ftransporter%2F-%2Ftransporter-4.18.0.tgz}
+    name: '@algolia/transporter'
+    version: 4.18.0
+    dependencies:
+      '@algolia/cache-common': artifactory.intra.xiaojukeji.com/@algolia/cache-common@4.18.0
+      '@algolia/logger-common': artifactory.intra.xiaojukeji.com/@algolia/logger-common@4.18.0
+      '@algolia/requester-common': artifactory.intra.xiaojukeji.com/@algolia/requester-common@4.18.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@babel/helper-string-parser@7.22.5:
+    resolution: {integrity: sha1-Uz82RXolgUzx32SIUjrVR9eEqZ8=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@babel/helper-string-parser/-/helper-string-parser-7.22.5.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fhelper-string-parser%2F-%2Fhelper-string-parser-7.22.5.tgz}
+    name: '@babel/helper-string-parser'
+    version: 7.22.5
+    engines: {node: '>=6.9.0'}
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@babel/helper-validator-identifier@7.22.5:
+    resolution: {integrity: sha1-lUTvajOZk0PIdA+lE1DzDuqq8ZM=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@babel/helper-validator-identifier/-/helper-validator-identifier-7.22.5.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fhelper-validator-identifier%2F-%2Fhelper-validator-identifier-7.22.5.tgz}
+    name: '@babel/helper-validator-identifier'
+    version: 7.22.5
+    engines: {node: '>=6.9.0'}
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@babel/parser@7.22.5:
+    resolution: {integrity: sha1-ch/QQvPOGJYjjPGzQcd+t97n2+o=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@babel/parser/-/parser-7.22.5.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fparser%2F-%2Fparser-7.22.5.tgz}
+    name: '@babel/parser'
+    version: 7.22.5
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+    dependencies:
+      '@babel/types': artifactory.intra.xiaojukeji.com/@babel/types@7.22.5
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@babel/types@7.22.5:
+    resolution: {integrity: sha1-zZPuqrAliAo6R+yIH0sJalt4b74=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@babel/types/-/types-7.22.5.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Ftypes%2F-%2Ftypes-7.22.5.tgz}
+    name: '@babel/types'
+    version: 7.22.5
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/helper-string-parser': artifactory.intra.xiaojukeji.com/@babel/helper-string-parser@7.22.5
+      '@babel/helper-validator-identifier': artifactory.intra.xiaojukeji.com/@babel/helper-validator-identifier@7.22.5
+      to-fast-properties: artifactory.intra.xiaojukeji.com/to-fast-properties@2.0.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@docsearch/css@3.5.1:
+    resolution: {integrity: sha1-St+YhHNbv+piHDcW6A6pe6pBm3M=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@docsearch/css/-/css-3.5.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40docsearch%2Fcss%2F-%2Fcss-3.5.1.tgz}
+    name: '@docsearch/css'
+    version: 3.5.1
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@docsearch/js@3.5.1(@algolia/client-search@4.18.0)(search-insights@2.6.0):
+    resolution: {integrity: sha1-bY3jtPz33pRGLA5ZLjM++p67ur0=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@docsearch/js/-/js-3.5.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40docsearch%2Fjs%2F-%2Fjs-3.5.1.tgz}
+    id: artifactory.intra.xiaojukeji.com/@docsearch/js/3.5.1
+    name: '@docsearch/js'
+    version: 3.5.1
+    dependencies:
+      '@docsearch/react': artifactory.intra.xiaojukeji.com/@docsearch/react@3.5.1(@algolia/client-search@4.18.0)(search-insights@2.6.0)
+      preact: artifactory.intra.xiaojukeji.com/preact@10.15.1
+    transitivePeerDependencies:
+      - '@algolia/client-search'
+      - '@types/react'
+      - react
+      - react-dom
+      - search-insights
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@docsearch/react@3.5.1(@algolia/client-search@4.18.0)(search-insights@2.6.0):
+    resolution: {integrity: sha1-NfSnX5SCEdi7aDDSFHxXX5aoUnQ=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@docsearch/react/-/react-3.5.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40docsearch%2Freact%2F-%2Freact-3.5.1.tgz}
+    id: artifactory.intra.xiaojukeji.com/@docsearch/react/3.5.1
+    name: '@docsearch/react'
+    version: 3.5.1
+    peerDependencies:
+      '@types/react': '>= 16.8.0 < 19.0.0'
+      react: '>= 16.8.0 < 19.0.0'
+      react-dom: '>= 16.8.0 < 19.0.0'
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      '@algolia/autocomplete-core': artifactory.intra.xiaojukeji.com/@algolia/autocomplete-core@1.9.3(@algolia/client-search@4.18.0)(algoliasearch@4.18.0)(search-insights@2.6.0)
+      '@algolia/autocomplete-preset-algolia': artifactory.intra.xiaojukeji.com/@algolia/autocomplete-preset-algolia@1.9.3(@algolia/client-search@4.18.0)(algoliasearch@4.18.0)
+      '@docsearch/css': artifactory.intra.xiaojukeji.com/@docsearch/css@3.5.1
+      algoliasearch: artifactory.intra.xiaojukeji.com/algoliasearch@4.18.0
+    transitivePeerDependencies:
+      - '@algolia/client-search'
+      - search-insights
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@esbuild/android-arm64@0.17.19:
+    resolution: {integrity: sha1-uvt1I0pdPRtpDnwpVqWZNF6Eov0=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@esbuild/android-arm64/-/android-arm64-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40esbuild%2Fandroid-arm64%2F-%2Fandroid-arm64-0.17.19.tgz}
+    name: '@esbuild/android-arm64'
+    version: 0.17.19
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/@esbuild/android-arm@0.17.19:
+    resolution: {integrity: sha1-WJj3gywimLx9CrU3AcV763TXi00=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@esbuild/android-arm/-/android-arm-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40esbuild%2Fandroid-arm%2F-%2Fandroid-arm-0.17.19.tgz}
+    name: '@esbuild/android-arm'
+    version: 0.17.19
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/@esbuild/android-x64@0.17.19:
+    resolution: {integrity: sha1-ZYNo75IGeGbZX7JocZ+Y82PROuE=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@esbuild/android-x64/-/android-x64-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40esbuild%2Fandroid-x64%2F-%2Fandroid-x64-0.17.19.tgz}
+    name: '@esbuild/android-x64'
+    version: 0.17.19
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/@esbuild/darwin-arm64@0.17.19:
+    resolution: {integrity: sha1-WEw0xZkbldTUjTMzALGk4v974nY=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@esbuild/darwin-arm64/-/darwin-arm64-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40esbuild%2Fdarwin-arm64%2F-%2Fdarwin-arm64-0.17.19.tgz}
+    name: '@esbuild/darwin-arm64'
+    version: 0.17.19
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/@esbuild/darwin-x64@0.17.19:
+    resolution: {integrity: sha1-d1HSNt/mzhNszjQ9zmn1LXa39ss=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@esbuild/darwin-x64/-/darwin-x64-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40esbuild%2Fdarwin-x64%2F-%2Fdarwin-x64-0.17.19.tgz}
+    name: '@esbuild/darwin-x64'
+    version: 0.17.19
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/@esbuild/freebsd-arm64@0.17.19:
+    resolution: {integrity: sha1-ys0XFmXdHVAPRcFn1QxrflOdX9I=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@esbuild/freebsd-arm64/-/freebsd-arm64-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40esbuild%2Ffreebsd-arm64%2F-%2Ffreebsd-arm64-0.17.19.tgz}
+    name: '@esbuild/freebsd-arm64'
+    version: 0.17.19
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/@esbuild/freebsd-x64@0.17.19:
+    resolution: {integrity: sha1-B2lFbu4qCLjZJdfAC3noYcsxYuQ=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@esbuild/freebsd-x64/-/freebsd-x64-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40esbuild%2Ffreebsd-x64%2F-%2Ffreebsd-x64-0.17.19.tgz}
+    name: '@esbuild/freebsd-x64'
+    version: 0.17.19
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/@esbuild/linux-arm64@0.17.19:
+    resolution: {integrity: sha1-OOFi7Lcjhixr4cJ9Y4n0iWC2jts=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@esbuild/linux-arm64/-/linux-arm64-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40esbuild%2Flinux-arm64%2F-%2Flinux-arm64-0.17.19.tgz}
+    name: '@esbuild/linux-arm64'
+    version: 0.17.19
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/@esbuild/linux-arm@0.17.19:
+    resolution: {integrity: sha1-GizTmcUAQBhKgFF0ptiQl9nRVZo=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@esbuild/linux-arm/-/linux-arm-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40esbuild%2Flinux-arm%2F-%2Flinux-arm-0.17.19.tgz}
+    name: '@esbuild/linux-arm'
+    version: 0.17.19
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/@esbuild/linux-ia32@0.17.19:
+    resolution: {integrity: sha1-4owlJmsDbOHKvKPDAVUiKEHcA1o=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@esbuild/linux-ia32/-/linux-ia32-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40esbuild%2Flinux-ia32%2F-%2Flinux-ia32-0.17.19.tgz}
+    name: '@esbuild/linux-ia32'
+    version: 0.17.19
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/@esbuild/linux-loong64@0.17.19:
+    resolution: {integrity: sha1-D4h7i7P5BljRoBFyg+VdvUydz3I=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@esbuild/linux-loong64/-/linux-loong64-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40esbuild%2Flinux-loong64%2F-%2Flinux-loong64-0.17.19.tgz}
+    name: '@esbuild/linux-loong64'
+    version: 0.17.19
+    engines: {node: '>=12'}
+    cpu: [loong64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/@esbuild/linux-mips64el@0.17.19:
+    resolution: {integrity: sha1-9dKguAR+qaXZ9ZKheOoFQFOnAok=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@esbuild/linux-mips64el/-/linux-mips64el-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40esbuild%2Flinux-mips64el%2F-%2Flinux-mips64el-0.17.19.tgz}
+    name: '@esbuild/linux-mips64el'
+    version: 0.17.19
+    engines: {node: '>=12'}
+    cpu: [mips64el]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/@esbuild/linux-ppc64@0.17.19:
+    resolution: {integrity: sha1-h2WQ46y9n6f1eix9hvg3F9u6yMc=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@esbuild/linux-ppc64/-/linux-ppc64-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40esbuild%2Flinux-ppc64%2F-%2Flinux-ppc64-0.17.19.tgz}
+    name: '@esbuild/linux-ppc64'
+    version: 0.17.19
+    engines: {node: '>=12'}
+    cpu: [ppc64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/@esbuild/linux-riscv64@0.17.19:
+    resolution: {integrity: sha1-f0k3PfRjzZ9B3DT5siYtdxaIvwk=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@esbuild/linux-riscv64/-/linux-riscv64-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40esbuild%2Flinux-riscv64%2F-%2Flinux-riscv64-0.17.19.tgz}
+    name: '@esbuild/linux-riscv64'
+    version: 0.17.19
+    engines: {node: '>=12'}
+    cpu: [riscv64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/@esbuild/linux-s390x@0.17.19:
+    resolution: {integrity: sha1-4q/Rr8r2Ov4sfZzqzSjsV8d/iCk=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@esbuild/linux-s390x/-/linux-s390x-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40esbuild%2Flinux-s390x%2F-%2Flinux-s390x-0.17.19.tgz}
+    name: '@esbuild/linux-s390x'
+    version: 0.17.19
+    engines: {node: '>=12'}
+    cpu: [s390x]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/@esbuild/linux-x64@0.17.19:
+    resolution: {integrity: sha1-ig6XOLFjXwxTOJ5RWug4Jt7CKqQ=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@esbuild/linux-x64/-/linux-x64-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40esbuild%2Flinux-x64%2F-%2Flinux-x64-0.17.19.tgz}
+    name: '@esbuild/linux-x64'
+    version: 0.17.19
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/@esbuild/netbsd-x64@0.17.19:
+    resolution: {integrity: sha1-wp+yRTxrfd75o14sGLN72hrlxGI=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@esbuild/netbsd-x64/-/netbsd-x64-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40esbuild%2Fnetbsd-x64%2F-%2Fnetbsd-x64-0.17.19.tgz}
+    name: '@esbuild/netbsd-x64'
+    version: 0.17.19
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [netbsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/@esbuild/openbsd-x64@0.17.19:
+    resolution: {integrity: sha1-ledaORQDyxApcoDVJNZs4EySBpE=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@esbuild/openbsd-x64/-/openbsd-x64-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40esbuild%2Fopenbsd-x64%2F-%2Fopenbsd-x64-0.17.19.tgz}
+    name: '@esbuild/openbsd-x64'
+    version: 0.17.19
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [openbsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/@esbuild/sunos-x64@0.17.19:
+    resolution: {integrity: sha1-ci6vBXuDwldZN9P/5a6xZUDacnM=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@esbuild/sunos-x64/-/sunos-x64-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40esbuild%2Fsunos-x64%2F-%2Fsunos-x64-0.17.19.tgz}
+    name: '@esbuild/sunos-x64'
+    version: 0.17.19
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [sunos]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/@esbuild/win32-arm64@0.17.19:
+    resolution: {integrity: sha1-mqncB0OZKIvc3Sg0Q+mutrlVK28=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@esbuild/win32-arm64/-/win32-arm64-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40esbuild%2Fwin32-arm64%2F-%2Fwin32-arm64-0.17.19.tgz}
+    name: '@esbuild/win32-arm64'
+    version: 0.17.19
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/@esbuild/win32-ia32@0.17.19:
+    resolution: {integrity: sha1-la1DxirWJIXiEPYpnHslceSNKwM=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@esbuild/win32-ia32/-/win32-ia32-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40esbuild%2Fwin32-ia32%2F-%2Fwin32-ia32-0.17.19.tgz}
+    name: '@esbuild/win32-ia32'
+    version: 0.17.19
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/@esbuild/win32-x64@0.17.19:
+    resolution: {integrity: sha1-jPry/2A+mqu5EOnAVYwmzzJ0QGE=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@esbuild/win32-x64/-/win32-x64-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40esbuild%2Fwin32-x64%2F-%2Fwin32-x64-0.17.19.tgz}
+    name: '@esbuild/win32-x64'
+    version: 0.17.19
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/@jridgewell/sourcemap-codec@1.4.15:
+    resolution: {integrity: sha1-18bmdVx4VnqVHgSrUu8P0m3lnzI=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40jridgewell%2Fsourcemap-codec%2F-%2Fsourcemap-codec-1.4.15.tgz}
+    name: '@jridgewell/sourcemap-codec'
+    version: 1.4.15
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@types/web-bluetooth@0.0.17:
+    resolution: {integrity: sha1-XJ88YX9kqXNde3KnzGceFm2QDEA=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@types/web-bluetooth/-/web-bluetooth-0.0.17.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fweb-bluetooth%2F-%2Fweb-bluetooth-0.0.17.tgz}
+    name: '@types/web-bluetooth'
+    version: 0.0.17
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@vitejs/plugin-vue@4.2.3(vite@4.3.9)(vue@3.3.4):
+    resolution: {integrity: sha1-7gtt/MYv5lNk5jlb84+iuhC7RLY=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@vitejs/plugin-vue/-/plugin-vue-4.2.3.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40vitejs%2Fplugin-vue%2F-%2Fplugin-vue-4.2.3.tgz}
+    id: artifactory.intra.xiaojukeji.com/@vitejs/plugin-vue/4.2.3
+    name: '@vitejs/plugin-vue'
+    version: 4.2.3
+    engines: {node: ^14.18.0 || >=16.0.0}
+    peerDependencies:
+      vite: ^4.0.0
+      vue: ^3.2.25
+    dependencies:
+      vite: artifactory.intra.xiaojukeji.com/vite@4.3.9
+      vue: artifactory.intra.xiaojukeji.com/vue@3.3.4
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@vue/compiler-core@3.3.4:
+    resolution: {integrity: sha1-f79ZHBwZ4azSj/0oRSbpi09YESg=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@vue/compiler-core/-/compiler-core-3.3.4.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fcompiler-core%2F-%2Fcompiler-core-3.3.4.tgz}
+    name: '@vue/compiler-core'
+    version: 3.3.4
+    dependencies:
+      '@babel/parser': artifactory.intra.xiaojukeji.com/@babel/parser@7.22.5
+      '@vue/shared': artifactory.intra.xiaojukeji.com/@vue/shared@3.3.4
+      estree-walker: artifactory.intra.xiaojukeji.com/estree-walker@2.0.2
+      source-map-js: artifactory.intra.xiaojukeji.com/source-map-js@1.0.2
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@vue/compiler-dom@3.3.4:
+    resolution: {integrity: sha1-9W4JtfTX3DUPmBeE3pcT2CM0EVE=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@vue/compiler-dom/-/compiler-dom-3.3.4.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fcompiler-dom%2F-%2Fcompiler-dom-3.3.4.tgz}
+    name: '@vue/compiler-dom'
+    version: 3.3.4
+    dependencies:
+      '@vue/compiler-core': artifactory.intra.xiaojukeji.com/@vue/compiler-core@3.3.4
+      '@vue/shared': artifactory.intra.xiaojukeji.com/@vue/shared@3.3.4
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@vue/compiler-sfc@3.3.4:
+    resolution: {integrity: sha1-sZ2ULHGTiJNTW0YibWAnIFkwAd8=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@vue/compiler-sfc/-/compiler-sfc-3.3.4.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fcompiler-sfc%2F-%2Fcompiler-sfc-3.3.4.tgz}
+    name: '@vue/compiler-sfc'
+    version: 3.3.4
+    dependencies:
+      '@babel/parser': artifactory.intra.xiaojukeji.com/@babel/parser@7.22.5
+      '@vue/compiler-core': artifactory.intra.xiaojukeji.com/@vue/compiler-core@3.3.4
+      '@vue/compiler-dom': artifactory.intra.xiaojukeji.com/@vue/compiler-dom@3.3.4
+      '@vue/compiler-ssr': artifactory.intra.xiaojukeji.com/@vue/compiler-ssr@3.3.4
+      '@vue/reactivity-transform': artifactory.intra.xiaojukeji.com/@vue/reactivity-transform@3.3.4
+      '@vue/shared': artifactory.intra.xiaojukeji.com/@vue/shared@3.3.4
+      estree-walker: artifactory.intra.xiaojukeji.com/estree-walker@2.0.2
+      magic-string: artifactory.intra.xiaojukeji.com/magic-string@0.30.0
+      postcss: artifactory.intra.xiaojukeji.com/postcss@8.4.24
+      source-map-js: artifactory.intra.xiaojukeji.com/source-map-js@1.0.2
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@vue/compiler-ssr@3.3.4:
+    resolution: {integrity: sha1-nRN5q/+k8rDNhEF0zuxKlyETh3c=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@vue/compiler-ssr/-/compiler-ssr-3.3.4.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fcompiler-ssr%2F-%2Fcompiler-ssr-3.3.4.tgz}
+    name: '@vue/compiler-ssr'
+    version: 3.3.4
+    dependencies:
+      '@vue/compiler-dom': artifactory.intra.xiaojukeji.com/@vue/compiler-dom@3.3.4
+      '@vue/shared': artifactory.intra.xiaojukeji.com/@vue/shared@3.3.4
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@vue/devtools-api@6.5.0:
+    resolution: {integrity: sha1-mLmUJe3ucLTJkmkmKPoeosHlfQc=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@vue/devtools-api/-/devtools-api-6.5.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fdevtools-api%2F-%2Fdevtools-api-6.5.0.tgz}
+    name: '@vue/devtools-api'
+    version: 6.5.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@vue/reactivity-transform@3.3.4:
+    resolution: {integrity: sha1-UpCEduNNamXGwhzSci1B7YrlGSk=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@vue/reactivity-transform/-/reactivity-transform-3.3.4.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Freactivity-transform%2F-%2Freactivity-transform-3.3.4.tgz}
+    name: '@vue/reactivity-transform'
+    version: 3.3.4
+    dependencies:
+      '@babel/parser': artifactory.intra.xiaojukeji.com/@babel/parser@7.22.5
+      '@vue/compiler-core': artifactory.intra.xiaojukeji.com/@vue/compiler-core@3.3.4
+      '@vue/shared': artifactory.intra.xiaojukeji.com/@vue/shared@3.3.4
+      estree-walker: artifactory.intra.xiaojukeji.com/estree-walker@2.0.2
+      magic-string: artifactory.intra.xiaojukeji.com/magic-string@0.30.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@vue/reactivity@3.3.4:
+    resolution: {integrity: sha1-onopxs0X+rpaDpn7uG7pUWU+IlM=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@vue/reactivity/-/reactivity-3.3.4.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Freactivity%2F-%2Freactivity-3.3.4.tgz}
+    name: '@vue/reactivity'
+    version: 3.3.4
+    dependencies:
+      '@vue/shared': artifactory.intra.xiaojukeji.com/@vue/shared@3.3.4
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@vue/runtime-core@3.3.4:
+    resolution: {integrity: sha1-S7M4cru1g3IbNA8wiIiDlBlZZ9E=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@vue/runtime-core/-/runtime-core-3.3.4.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fruntime-core%2F-%2Fruntime-core-3.3.4.tgz}
+    name: '@vue/runtime-core'
+    version: 3.3.4
+    dependencies:
+      '@vue/reactivity': artifactory.intra.xiaojukeji.com/@vue/reactivity@3.3.4
+      '@vue/shared': artifactory.intra.xiaojukeji.com/@vue/shared@3.3.4
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@vue/runtime-dom@3.3.4:
+    resolution: {integrity: sha1-mS8ledDtbOlh9Hu+m/5LZ5ElFWY=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@vue/runtime-dom/-/runtime-dom-3.3.4.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fruntime-dom%2F-%2Fruntime-dom-3.3.4.tgz}
+    name: '@vue/runtime-dom'
+    version: 3.3.4
+    dependencies:
+      '@vue/runtime-core': artifactory.intra.xiaojukeji.com/@vue/runtime-core@3.3.4
+      '@vue/shared': artifactory.intra.xiaojukeji.com/@vue/shared@3.3.4
+      csstype: artifactory.intra.xiaojukeji.com/csstype@3.1.2
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@vue/server-renderer@3.3.4(vue@3.3.4):
+    resolution: {integrity: sha1-6kZZS3ldFTbym8WS3Q9mVffqTEw=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@vue/server-renderer/-/server-renderer-3.3.4.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fserver-renderer%2F-%2Fserver-renderer-3.3.4.tgz}
+    id: artifactory.intra.xiaojukeji.com/@vue/server-renderer/3.3.4
+    name: '@vue/server-renderer'
+    version: 3.3.4
+    peerDependencies:
+      vue: 3.3.4
+    dependencies:
+      '@vue/compiler-ssr': artifactory.intra.xiaojukeji.com/@vue/compiler-ssr@3.3.4
+      '@vue/shared': artifactory.intra.xiaojukeji.com/@vue/shared@3.3.4
+      vue: artifactory.intra.xiaojukeji.com/vue@3.3.4
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@vue/shared@3.3.4:
+    resolution: {integrity: sha1-Bug8UCf0ZO74YcMpvoFFS8i3B4A=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@vue/shared/-/shared-3.3.4.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fshared%2F-%2Fshared-3.3.4.tgz}
+    name: '@vue/shared'
+    version: 3.3.4
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@vueuse/core@10.2.0(vue@3.3.4):
+    resolution: {integrity: sha1-Zc9SIr8BeP9d3sIKET18psMEgeE=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@vueuse/core/-/core-10.2.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40vueuse%2Fcore%2F-%2Fcore-10.2.0.tgz}
+    id: artifactory.intra.xiaojukeji.com/@vueuse/core/10.2.0
+    name: '@vueuse/core'
+    version: 10.2.0
+    dependencies:
+      '@types/web-bluetooth': artifactory.intra.xiaojukeji.com/@types/web-bluetooth@0.0.17
+      '@vueuse/metadata': artifactory.intra.xiaojukeji.com/@vueuse/metadata@10.2.0
+      '@vueuse/shared': artifactory.intra.xiaojukeji.com/@vueuse/shared@10.2.0(vue@3.3.4)
+      vue-demi: artifactory.intra.xiaojukeji.com/vue-demi@0.14.5(vue@3.3.4)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@vueuse/integrations@10.2.0(focus-trap@7.4.3)(vue@3.3.4):
+    resolution: {integrity: sha1-nYinJoXCiKlcplhopByWmsMWdD0=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@vueuse/integrations/-/integrations-10.2.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40vueuse%2Fintegrations%2F-%2Fintegrations-10.2.0.tgz}
+    id: artifactory.intra.xiaojukeji.com/@vueuse/integrations/10.2.0
+    name: '@vueuse/integrations'
+    version: 10.2.0
+    peerDependencies:
+      async-validator: '*'
+      axios: '*'
+      change-case: '*'
+      drauu: '*'
+      focus-trap: '*'
+      fuse.js: '*'
+      idb-keyval: '*'
+      jwt-decode: '*'
+      nprogress: '*'
+      qrcode: '*'
+      sortablejs: '*'
+      universal-cookie: '*'
+    peerDependenciesMeta:
+      async-validator:
+        optional: true
+      axios:
+        optional: true
+      change-case:
+        optional: true
+      drauu:
+        optional: true
+      focus-trap:
+        optional: true
+      fuse.js:
+        optional: true
+      idb-keyval:
+        optional: true
+      jwt-decode:
+        optional: true
+      nprogress:
+        optional: true
+      qrcode:
+        optional: true
+      sortablejs:
+        optional: true
+      universal-cookie:
+        optional: true
+    dependencies:
+      '@vueuse/core': artifactory.intra.xiaojukeji.com/@vueuse/core@10.2.0(vue@3.3.4)
+      '@vueuse/shared': artifactory.intra.xiaojukeji.com/@vueuse/shared@10.2.0(vue@3.3.4)
+      focus-trap: artifactory.intra.xiaojukeji.com/focus-trap@7.4.3
+      vue-demi: artifactory.intra.xiaojukeji.com/vue-demi@0.14.5(vue@3.3.4)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@vueuse/metadata@10.2.0:
+    resolution: {integrity: sha1-oCZCWXJ4a4P122WI2CUt9C4Hwkc=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@vueuse/metadata/-/metadata-10.2.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40vueuse%2Fmetadata%2F-%2Fmetadata-10.2.0.tgz}
+    name: '@vueuse/metadata'
+    version: 10.2.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/@vueuse/shared@10.2.0(vue@3.3.4):
+    resolution: {integrity: sha1-kwm44e1mDiRkNIIGXvDlnSI8P2k=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@vueuse/shared/-/shared-10.2.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40vueuse%2Fshared%2F-%2Fshared-10.2.0.tgz}
+    id: artifactory.intra.xiaojukeji.com/@vueuse/shared/10.2.0
+    name: '@vueuse/shared'
+    version: 10.2.0
+    dependencies:
+      vue-demi: artifactory.intra.xiaojukeji.com/vue-demi@0.14.5(vue@3.3.4)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/algoliasearch@4.18.0:
+    resolution: {integrity: sha1-EYOtA4SlssFPOBw6Nh2mEazI7bM=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/algoliasearch/-/algoliasearch-4.18.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Falgoliasearch%2F-%2Falgoliasearch-4.18.0.tgz}
+    name: algoliasearch
+    version: 4.18.0
+    dependencies:
+      '@algolia/cache-browser-local-storage': artifactory.intra.xiaojukeji.com/@algolia/cache-browser-local-storage@4.18.0
+      '@algolia/cache-common': artifactory.intra.xiaojukeji.com/@algolia/cache-common@4.18.0
+      '@algolia/cache-in-memory': artifactory.intra.xiaojukeji.com/@algolia/cache-in-memory@4.18.0
+      '@algolia/client-account': artifactory.intra.xiaojukeji.com/@algolia/client-account@4.18.0
+      '@algolia/client-analytics': artifactory.intra.xiaojukeji.com/@algolia/client-analytics@4.18.0
+      '@algolia/client-common': artifactory.intra.xiaojukeji.com/@algolia/client-common@4.18.0
+      '@algolia/client-personalization': artifactory.intra.xiaojukeji.com/@algolia/client-personalization@4.18.0
+      '@algolia/client-search': artifactory.intra.xiaojukeji.com/@algolia/client-search@4.18.0
+      '@algolia/logger-common': artifactory.intra.xiaojukeji.com/@algolia/logger-common@4.18.0
+      '@algolia/logger-console': artifactory.intra.xiaojukeji.com/@algolia/logger-console@4.18.0
+      '@algolia/requester-browser-xhr': artifactory.intra.xiaojukeji.com/@algolia/requester-browser-xhr@4.18.0
+      '@algolia/requester-common': artifactory.intra.xiaojukeji.com/@algolia/requester-common@4.18.0
+      '@algolia/requester-node-http': artifactory.intra.xiaojukeji.com/@algolia/requester-node-http@4.18.0
+      '@algolia/transporter': artifactory.intra.xiaojukeji.com/@algolia/transporter@4.18.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/ansi-sequence-parser@1.1.0:
+    resolution: {integrity: sha1-TXkPMSNqwgNmsjs5FreJ4b3jmu0=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/ansi-sequence-parser/-/ansi-sequence-parser-1.1.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fansi-sequence-parser%2F-%2Fansi-sequence-parser-1.1.0.tgz}
+    name: ansi-sequence-parser
+    version: 1.1.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/body-scroll-lock@4.0.0-beta.0:
+    resolution: {integrity: sha1-T3h4nRDmOIEVwEYM1tfU3Su8T34=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/body-scroll-lock/-/body-scroll-lock-4.0.0-beta.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fbody-scroll-lock%2F-%2Fbody-scroll-lock-4.0.0-beta.0.tgz}
+    name: body-scroll-lock
+    version: 4.0.0-beta.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/csstype@3.1.2:
+    resolution: {integrity: sha1-HUv51XLxHBQDHwQ24cELwfVx9Qs=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/csstype/-/csstype-3.1.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fcsstype%2F-%2Fcsstype-3.1.2.tgz}
+    name: csstype
+    version: 3.1.2
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/esbuild@0.17.19:
+    resolution: {integrity: sha1-CHpyfpgpnwRio9C83ZzX/xAL2VU=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/esbuild/-/esbuild-0.17.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fesbuild%2F-%2Fesbuild-0.17.19.tgz}
+    name: esbuild
+    version: 0.17.19
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    optionalDependencies:
+      '@esbuild/android-arm': artifactory.intra.xiaojukeji.com/@esbuild/android-arm@0.17.19
+      '@esbuild/android-arm64': artifactory.intra.xiaojukeji.com/@esbuild/android-arm64@0.17.19
+      '@esbuild/android-x64': artifactory.intra.xiaojukeji.com/@esbuild/android-x64@0.17.19
+      '@esbuild/darwin-arm64': artifactory.intra.xiaojukeji.com/@esbuild/darwin-arm64@0.17.19
+      '@esbuild/darwin-x64': artifactory.intra.xiaojukeji.com/@esbuild/darwin-x64@0.17.19
+      '@esbuild/freebsd-arm64': artifactory.intra.xiaojukeji.com/@esbuild/freebsd-arm64@0.17.19
+      '@esbuild/freebsd-x64': artifactory.intra.xiaojukeji.com/@esbuild/freebsd-x64@0.17.19
+      '@esbuild/linux-arm': artifactory.intra.xiaojukeji.com/@esbuild/linux-arm@0.17.19
+      '@esbuild/linux-arm64': artifactory.intra.xiaojukeji.com/@esbuild/linux-arm64@0.17.19
+      '@esbuild/linux-ia32': artifactory.intra.xiaojukeji.com/@esbuild/linux-ia32@0.17.19
+      '@esbuild/linux-loong64': artifactory.intra.xiaojukeji.com/@esbuild/linux-loong64@0.17.19
+      '@esbuild/linux-mips64el': artifactory.intra.xiaojukeji.com/@esbuild/linux-mips64el@0.17.19
+      '@esbuild/linux-ppc64': artifactory.intra.xiaojukeji.com/@esbuild/linux-ppc64@0.17.19
+      '@esbuild/linux-riscv64': artifactory.intra.xiaojukeji.com/@esbuild/linux-riscv64@0.17.19
+      '@esbuild/linux-s390x': artifactory.intra.xiaojukeji.com/@esbuild/linux-s390x@0.17.19
+      '@esbuild/linux-x64': artifactory.intra.xiaojukeji.com/@esbuild/linux-x64@0.17.19
+      '@esbuild/netbsd-x64': artifactory.intra.xiaojukeji.com/@esbuild/netbsd-x64@0.17.19
+      '@esbuild/openbsd-x64': artifactory.intra.xiaojukeji.com/@esbuild/openbsd-x64@0.17.19
+      '@esbuild/sunos-x64': artifactory.intra.xiaojukeji.com/@esbuild/sunos-x64@0.17.19
+      '@esbuild/win32-arm64': artifactory.intra.xiaojukeji.com/@esbuild/win32-arm64@0.17.19
+      '@esbuild/win32-ia32': artifactory.intra.xiaojukeji.com/@esbuild/win32-ia32@0.17.19
+      '@esbuild/win32-x64': artifactory.intra.xiaojukeji.com/@esbuild/win32-x64@0.17.19
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/estree-walker@2.0.2:
+    resolution: {integrity: sha1-UvAQF4wqTBF6d1fP6UKtt9LaTKw=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/estree-walker/-/estree-walker-2.0.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Festree-walker%2F-%2Festree-walker-2.0.2.tgz}
+    name: estree-walker
+    version: 2.0.2
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/focus-trap@7.4.3:
+    resolution: {integrity: sha1-o9rnPUTfNZ65K783sY4XPoE7FsU=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/focus-trap/-/focus-trap-7.4.3.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Ffocus-trap%2F-%2Ffocus-trap-7.4.3.tgz}
+    name: focus-trap
+    version: 7.4.3
+    dependencies:
+      tabbable: artifactory.intra.xiaojukeji.com/tabbable@6.1.2
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/fsevents@2.3.2:
+    resolution: {integrity: sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/fsevents/-/fsevents-2.3.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Ffsevents%2F-%2Ffsevents-2.3.2.tgz}
+    name: fsevents
+    version: 2.3.2
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  artifactory.intra.xiaojukeji.com/jsonc-parser@3.2.0:
+    resolution: {integrity: sha1-Mf8/TCuXk/icZyEmJ8UcY5T4jnY=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/jsonc-parser/-/jsonc-parser-3.2.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fjsonc-parser%2F-%2Fjsonc-parser-3.2.0.tgz}
+    name: jsonc-parser
+    version: 3.2.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/magic-string@0.30.0:
+    resolution: {integrity: sha1-/VikdIxcRUczikJOkPpd0X9N5Sk=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/magic-string/-/magic-string-0.30.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fmagic-string%2F-%2Fmagic-string-0.30.0.tgz}
+    name: magic-string
+    version: 0.30.0
+    engines: {node: '>=12'}
+    dependencies:
+      '@jridgewell/sourcemap-codec': artifactory.intra.xiaojukeji.com/@jridgewell/sourcemap-codec@1.4.15
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/mark.js@8.11.1:
+    resolution: {integrity: sha1-GA8fnr74sOY45BZq1S24eb6y/8U=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/mark.js/-/mark.js-8.11.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fmark.js%2F-%2Fmark.js-8.11.1.tgz}
+    name: mark.js
+    version: 8.11.1
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/minisearch@6.1.0:
+    resolution: {integrity: sha1-bnTnQ9vQ6I+lylL+8jkeCqcFUlI=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/minisearch/-/minisearch-6.1.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fminisearch%2F-%2Fminisearch-6.1.0.tgz}
+    name: minisearch
+    version: 6.1.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/nanoid@3.3.6:
+    resolution: {integrity: sha1-RDOAyFbW6fmCQmfZYLQjatWD6kw=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/nanoid/-/nanoid-3.3.6.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fnanoid%2F-%2Fnanoid-3.3.6.tgz}
+    name: nanoid
+    version: 3.3.6
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/picocolors@1.0.0:
+    resolution: {integrity: sha1-y1vcdP8/UYkiNur3nWi8RFZKuBw=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/picocolors/-/picocolors-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fpicocolors%2F-%2Fpicocolors-1.0.0.tgz}
+    name: picocolors
+    version: 1.0.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/postcss@8.4.24:
+    resolution: {integrity: sha1-9xTbqbIoS+PMB9vS/FfuTcly0t8=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/postcss/-/postcss-8.4.24.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fpostcss%2F-%2Fpostcss-8.4.24.tgz}
+    name: postcss
+    version: 8.4.24
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: artifactory.intra.xiaojukeji.com/nanoid@3.3.6
+      picocolors: artifactory.intra.xiaojukeji.com/picocolors@1.0.0
+      source-map-js: artifactory.intra.xiaojukeji.com/source-map-js@1.0.2
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/preact@10.15.1:
+    resolution: {integrity: sha1-od5gyfwMeaUi2WnGXcrdxdmU7t4=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/preact/-/preact-10.15.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fpreact%2F-%2Fpreact-10.15.1.tgz}
+    name: preact
+    version: 10.15.1
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/rollup@3.25.2:
+    resolution: {integrity: sha1-NHnXKVWoPakBn5JtS6KF1jC3ZWs=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/rollup/-/rollup-3.25.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Frollup%2F-%2Frollup-3.25.2.tgz}
+    name: rollup
+    version: 3.25.2
+    engines: {node: '>=14.18.0', npm: '>=8.0.0'}
+    hasBin: true
+    optionalDependencies:
+      fsevents: artifactory.intra.xiaojukeji.com/fsevents@2.3.2
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/search-insights@2.6.0:
+    resolution: {integrity: sha1-u4dxpzuDxKDx8gfC9k/qAazT59A=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/search-insights/-/search-insights-2.6.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fsearch-insights%2F-%2Fsearch-insights-2.6.0.tgz}
+    name: search-insights
+    version: 2.6.0
+    engines: {node: '>=8.16.0'}
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/shiki@0.14.2:
+    resolution: {integrity: sha1-1RRAgAtwE5KzHOIzYDYFjjOCR6E=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/shiki/-/shiki-0.14.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fshiki%2F-%2Fshiki-0.14.2.tgz}
+    name: shiki
+    version: 0.14.2
+    dependencies:
+      ansi-sequence-parser: artifactory.intra.xiaojukeji.com/ansi-sequence-parser@1.1.0
+      jsonc-parser: artifactory.intra.xiaojukeji.com/jsonc-parser@3.2.0
+      vscode-oniguruma: artifactory.intra.xiaojukeji.com/vscode-oniguruma@1.7.0
+      vscode-textmate: artifactory.intra.xiaojukeji.com/vscode-textmate@8.0.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/source-map-js@1.0.2:
+    resolution: {integrity: sha1-rbw2HZxi3zgBJefxYfccgm8eSQw=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/source-map-js/-/source-map-js-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fsource-map-js%2F-%2Fsource-map-js-1.0.2.tgz}
+    name: source-map-js
+    version: 1.0.2
+    engines: {node: '>=0.10.0'}
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/tabbable@6.1.2:
+    resolution: {integrity: sha1-sNPKgdWC1IqA9xsmfRQ0sUaaNwM=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/tabbable/-/tabbable-6.1.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Ftabbable%2F-%2Ftabbable-6.1.2.tgz}
+    name: tabbable
+    version: 6.1.2
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/to-fast-properties@2.0.0:
+    resolution: {integrity: sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/to-fast-properties/-/to-fast-properties-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fto-fast-properties%2F-%2Fto-fast-properties-2.0.0.tgz}
+    name: to-fast-properties
+    version: 2.0.0
+    engines: {node: '>=4'}
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/vite@4.3.9:
+    resolution: {integrity: sha1-24liAMCxqhOzfNw1yeme4v3V+W0=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/vite/-/vite-4.3.9.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fvite%2F-%2Fvite-4.3.9.tgz}
+    name: vite
+    version: 4.3.9
+    engines: {node: ^14.18.0 || >=16.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': '>= 14'
+      less: '*'
+      sass: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      less:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+    dependencies:
+      esbuild: artifactory.intra.xiaojukeji.com/esbuild@0.17.19
+      postcss: artifactory.intra.xiaojukeji.com/postcss@8.4.24
+      rollup: artifactory.intra.xiaojukeji.com/rollup@3.25.2
+    optionalDependencies:
+      fsevents: artifactory.intra.xiaojukeji.com/fsevents@2.3.2
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/vitepress@1.0.0-beta.3(@algolia/client-search@4.18.0)(search-insights@2.6.0):
+    resolution: {integrity: sha1-HAO9PP9Rk7iI0gIljR3Qpgz+Uus=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/vitepress/-/vitepress-1.0.0-beta.3.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fvitepress%2F-%2Fvitepress-1.0.0-beta.3.tgz}
+    id: artifactory.intra.xiaojukeji.com/vitepress/1.0.0-beta.3
+    name: vitepress
+    version: 1.0.0-beta.3
+    hasBin: true
+    dependencies:
+      '@docsearch/css': artifactory.intra.xiaojukeji.com/@docsearch/css@3.5.1
+      '@docsearch/js': artifactory.intra.xiaojukeji.com/@docsearch/js@3.5.1(@algolia/client-search@4.18.0)(search-insights@2.6.0)
+      '@vitejs/plugin-vue': artifactory.intra.xiaojukeji.com/@vitejs/plugin-vue@4.2.3(vite@4.3.9)(vue@3.3.4)
+      '@vue/devtools-api': artifactory.intra.xiaojukeji.com/@vue/devtools-api@6.5.0
+      '@vueuse/core': artifactory.intra.xiaojukeji.com/@vueuse/core@10.2.0(vue@3.3.4)
+      '@vueuse/integrations': artifactory.intra.xiaojukeji.com/@vueuse/integrations@10.2.0(focus-trap@7.4.3)(vue@3.3.4)
+      body-scroll-lock: artifactory.intra.xiaojukeji.com/body-scroll-lock@4.0.0-beta.0
+      focus-trap: artifactory.intra.xiaojukeji.com/focus-trap@7.4.3
+      mark.js: artifactory.intra.xiaojukeji.com/mark.js@8.11.1
+      minisearch: artifactory.intra.xiaojukeji.com/minisearch@6.1.0
+      shiki: artifactory.intra.xiaojukeji.com/shiki@0.14.2
+      vite: artifactory.intra.xiaojukeji.com/vite@4.3.9
+      vue: artifactory.intra.xiaojukeji.com/vue@3.3.4
+    transitivePeerDependencies:
+      - '@algolia/client-search'
+      - '@types/node'
+      - '@types/react'
+      - '@vue/composition-api'
+      - async-validator
+      - axios
+      - change-case
+      - drauu
+      - fuse.js
+      - idb-keyval
+      - jwt-decode
+      - less
+      - nprogress
+      - qrcode
+      - react
+      - react-dom
+      - sass
+      - search-insights
+      - sortablejs
+      - stylus
+      - sugarss
+      - terser
+      - universal-cookie
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/vscode-oniguruma@1.7.0:
+    resolution: {integrity: sha1-Q5v62P5xq9d5gzjRzT3FOovuqUs=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/vscode-oniguruma/-/vscode-oniguruma-1.7.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fvscode-oniguruma%2F-%2Fvscode-oniguruma-1.7.0.tgz}
+    name: vscode-oniguruma
+    version: 1.7.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/vscode-textmate@8.0.0:
+    resolution: {integrity: sha1-LHo7EWPvBEEJfgtdY4nNVQS1nl0=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/vscode-textmate/-/vscode-textmate-8.0.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fvscode-textmate%2F-%2Fvscode-textmate-8.0.0.tgz}
+    name: vscode-textmate
+    version: 8.0.0
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/vue-demi@0.14.5(vue@3.3.4):
+    resolution: {integrity: sha1-Z20EY9GhJm1atcupMuBD2PXy+9k=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/vue-demi/-/vue-demi-0.14.5.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fvue-demi%2F-%2Fvue-demi-0.14.5.tgz}
+    id: artifactory.intra.xiaojukeji.com/vue-demi/0.14.5
+    name: vue-demi
+    version: 0.14.5
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    peerDependencies:
+      '@vue/composition-api': ^1.0.0-rc.1
+      vue: ^3.0.0-0 || ^2.6.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+    dependencies:
+      vue: artifactory.intra.xiaojukeji.com/vue@3.3.4
+    dev: true
+
+  artifactory.intra.xiaojukeji.com/vue@3.3.4:
+    resolution: {integrity: sha1-jtlF04c2Z98dD887JGOtoCj4i9Y=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/vue/-/vue-3.3.4.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fvue%2F-%2Fvue-3.3.4.tgz}
+    name: vue
+    version: 3.3.4
+    dependencies:
+      '@vue/compiler-dom': artifactory.intra.xiaojukeji.com/@vue/compiler-dom@3.3.4
+      '@vue/compiler-sfc': artifactory.intra.xiaojukeji.com/@vue/compiler-sfc@3.3.4
+      '@vue/runtime-dom': artifactory.intra.xiaojukeji.com/@vue/runtime-dom@3.3.4
+      '@vue/server-renderer': artifactory.intra.xiaojukeji.com/@vue/server-renderer@3.3.4(vue@3.3.4)
+      '@vue/shared': artifactory.intra.xiaojukeji.com/@vue/shared@3.3.4
+    dev: true
