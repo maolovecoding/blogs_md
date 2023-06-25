@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vitepress dev docs",
+    "docs:dev": "vitepress dev docs --cors",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
-    "deploy":"bash deploy.sh"
+    "deploy": "bash deploy.sh"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/maolovecoding/blogs_md#readme",
   "devDependencies": {
+    "@types/node": "^20.3.1",
     "vitepress": "1.0.0-beta.3"
   }
 }

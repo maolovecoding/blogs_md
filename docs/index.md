@@ -3,7 +3,7 @@ layout: home
 sidebar: false
 
 title: maomao blogs
-titleTemplate: 跨端卡片开发框架
+titleTemplate: 一个简单的博客，用以记录自己的所学。
 
 hero:
   name: maomao blogs

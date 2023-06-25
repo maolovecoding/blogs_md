@@ -5,9 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  '@types/node':
+    specifier: ^20.3.1
+    version: artifactory.intra.xiaojukeji.com/@types/node@20.3.1
   vitepress:
     specifier: 1.0.0-beta.3
-    version: artifactory.intra.xiaojukeji.com/vitepress@1.0.0-beta.3(@algolia/client-search@4.18.0)(search-insights@2.6.0)
+    version: artifactory.intra.xiaojukeji.com/vitepress@1.0.0-beta.3(@algolia/client-search@4.18.0)(@types/node@20.3.1)(search-insights@2.6.0)
 
 packages:
 
@@ -516,6 +519,12 @@ packages:
     version: 1.4.15
     dev: true
 
+  artifactory.intra.xiaojukeji.com/@types/node@20.3.1:
+    resolution: {integrity: sha1-6Kg/Gqi2STd7sftde6xcuQ54Tf4=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@types/node/-/node-20.3.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fnode%2F-%2Fnode-20.3.1.tgz}
+    name: '@types/node'
+    version: 20.3.1
+    dev: true
+
   artifactory.intra.xiaojukeji.com/@types/web-bluetooth@0.0.17:
     resolution: {integrity: sha1-XJ88YX9kqXNde3KnzGceFm2QDEA=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@types/web-bluetooth/-/web-bluetooth-0.0.17.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fweb-bluetooth%2F-%2Fweb-bluetooth-0.0.17.tgz}
     name: '@types/web-bluetooth'
@@ -532,7 +541,7 @@ packages:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: artifactory.intra.xiaojukeji.com/vite@4.3.9
+      vite: artifactory.intra.xiaojukeji.com/vite@4.3.9(@types/node@20.3.1)
       vue: artifactory.intra.xiaojukeji.com/vue@3.3.4
     dev: true
 
@@ -933,8 +942,9 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  artifactory.intra.xiaojukeji.com/vite@4.3.9:
+  artifactory.intra.xiaojukeji.com/vite@4.3.9(@types/node@20.3.1):
     resolution: {integrity: sha1-24liAMCxqhOzfNw1yeme4v3V+W0=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/vite/-/vite-4.3.9.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fvite%2F-%2Fvite-4.3.9.tgz}
+    id: artifactory.intra.xiaojukeji.com/vite/4.3.9
     name: vite
     version: 4.3.9
     engines: {node: ^14.18.0 || >=16.0.0}
@@ -960,6 +970,7 @@ packages:
       terser:
         optional: true
     dependencies:
+      '@types/node': artifactory.intra.xiaojukeji.com/@types/node@20.3.1
       esbuild: artifactory.intra.xiaojukeji.com/esbuild@0.17.19
       postcss: artifactory.intra.xiaojukeji.com/postcss@8.4.24
       rollup: artifactory.intra.xiaojukeji.com/rollup@3.25.2
@@ -967,7 +978,7 @@ packages:
       fsevents: artifactory.intra.xiaojukeji.com/fsevents@2.3.2
     dev: true
 
-  artifactory.intra.xiaojukeji.com/vitepress@1.0.0-beta.3(@algolia/client-search@4.18.0)(search-insights@2.6.0):
+  artifactory.intra.xiaojukeji.com/vitepress@1.0.0-beta.3(@algolia/client-search@4.18.0)(@types/node@20.3.1)(search-insights@2.6.0):
     resolution: {integrity: sha1-HAO9PP9Rk7iI0gIljR3Qpgz+Uus=, registry: http://npm.intra.xiaojukeji.com/, tarball: http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/vitepress/-/vitepress-1.0.0-beta.3.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fvitepress%2F-%2Fvitepress-1.0.0-beta.3.tgz}
     id: artifactory.intra.xiaojukeji.com/vitepress/1.0.0-beta.3
     name: vitepress
@@ -985,7 +996,7 @@ packages:
       mark.js: artifactory.intra.xiaojukeji.com/mark.js@8.11.1
       minisearch: artifactory.intra.xiaojukeji.com/minisearch@6.1.0
       shiki: artifactory.intra.xiaojukeji.com/shiki@0.14.2
-      vite: artifactory.intra.xiaojukeji.com/vite@4.3.9
+      vite: artifactory.intra.xiaojukeji.com/vite@4.3.9(@types/node@20.3.1)
       vue: artifactory.intra.xiaojukeji.com/vue@3.3.4
     transitivePeerDependencies:
       - '@algolia/client-search'
