@@ -29,4 +29,5 @@ export default defineConfig({
     outline: 3, // 显示标题级别
   },
   lastUpdated: true, // 最后更新时间
+  // cleanUrls: true,
 })

@@ -10,5 +10,8 @@ export default [
   },
   {
     text: 'go', link: '/go/'
-  }
+  },
+  {
+    text: 'shell', link: '/shell/'
+  },
 ]
