@@ -1,8 +1,9 @@
 export default {
   'web/css': [
-    {
-      text: 'css var use', link: 'web/css/css变量'
-    }
+    { text: 'css var use', link: 'web/css/css变量' },
+  ],
+  'web/js': [
+    { text: '前端函数式编程', link: 'web/js/01-函数式编程概念' },
   ],
   '/go': [
     { text: 'go语法', link: '/go/go语法'}
