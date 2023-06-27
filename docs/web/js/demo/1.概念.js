@@ -67,3 +67,40 @@
 // })
 // Maybe2.of = value => Maybe2(value)
 // console.log(Maybe2.of().map(val => val.x)) // 不会报错
+
+
+class Either {
+  constructor(left, right) {
+    this.left = left;
+    this.right = right;
+  }
+  static of(left, right) {
+    return new Either(left, right);
+  }
+  map(fn) {
+    return this.right != null
+      ? Either.of(this.left, fn(this.right))
+      : Either.of(fn(this.left), this.right);
+  }
+  get value() {
+    return this.right != null ? this.right : this.left;
+  }
+}
+const response = { name: "张三", gender: null };
+let either = Either.of("男", response.gender).map((x) => `性别：${x}`);
+console.log(either.value);
+
+const Either2 = (left, right) => ({
+  left,
+  right,
+  map(fn) {
+    return (this.right !== null && this.right !== undefined) ? Either2(this.left, fn(this.right)) : Either2(fn(this.left), this.right)
+  },
+  get value(){
+    return (this.right !== null && this.right !== undefined) ? this.right : this.left
+  }
+})
+Either2.of = (left, right) => Either2(left, right)
+const response2 = { name: "张三", gender: null };
+let either2 = Either.of("男", response2.gender).map((x) => `性别：${x}`);
+console.log(either2.value);
