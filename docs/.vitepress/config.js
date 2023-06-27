@@ -26,7 +26,7 @@ export default defineConfig({
     editLink: {
       pattern: 'https://github.com/maolovecoding/blogs_md/master/docs/:path'
     },
-    outline: 3, // 显示标题级别
+    outline: 2, // 显示标题级别
   },
   lastUpdated: true, // 最后更新时间
   // cleanUrls: true,
