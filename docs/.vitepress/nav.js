@@ -14,4 +14,5 @@ export default [
   {
     text: 'shell', link: '/shell/'
   },
+  {text: 'android', link: '/android/'},
 ]
