@@ -6,6 +6,7 @@ export default [
     {text: 'js', link: '/web/js/'},
     {text: 'vue', link: '/web/vue/'},
     {text: 'react', link: '/web/react/'},
+    {text: 'node', link: '/web/node/'},
     ]
   },
   {

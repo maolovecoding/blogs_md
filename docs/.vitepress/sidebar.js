@@ -5,6 +5,9 @@ export default {
   'web/js': [
     { text: '前端函数式编程', link: 'web/js/01-函数式编程概念' },
   ],
+  'web/node': [
+    { text: 'prisma入门', link: 'web/node/1.prisma.base' },
+  ],
   '/go': [
     { text: 'go语法', link: '/go/go语法'}
   ],
